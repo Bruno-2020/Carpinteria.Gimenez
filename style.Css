@@ -1,0 +1,128 @@
+/*Write some CSS below */
+
+body {	
+font-size: 18px;
+margin: 0px;
+text-align: center;
+}
+
+
+
+.titulo {
+
+text-align: center;
+padding: 10px;
+
+}
+
+.hogar {
+
+	text-decoration: underline;
+	margin: 15px;
+	padding: 20px;
+
+}
+
+.cuerpo {
+text-align: left;
+}
+
+	.cartas {
+	
+   width: 10px;
+   height: 30px;
+   margin: 0px;
+   border-radius: 10px;
+   padding: 5px;
+   position: center;
+   
+
+}
+
+.carta-edicion {
+
+	display: inline-grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px;
+	border-radius: 10px;
+	margin: 0 0 1rem;
+	padding: 5px;
+   background-position: center;
+	}
+
+.carta-imagenes {
+
+background: #f5f5f5;
+box-shadow: 10px 10px 10px rgba(14, 15, 15);
+border-radius: 5px;
+padding: 5px;
+margin: 8px;
+
+}
+
+.carta-imagenes img {
+
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 5px;
+  border-image: 10px;
+
+}
+
+.carta-imagenes h4 {
+
+	margin-bottom: 10px;
+	text-align: left;
+}
+
+.footer {
+	background: #21211e;
+	color: white;
+	padding: 1px 0px;
+	text-align: left;
+	width: 100%;
+	
+
+
+}
+
+.footer-edicion {
+
+	margin: 8px;
+	opacity: 0.5;
+}
+
+html {
+
+	background-color: #eaedc7;
+}
+
+strong {
+    
+    margin: 80px;
+}
+
+i {
+
+	margin: 8px;
+}
+
+.consulta {
+	margin: 8px;
+	opacity: 0.7;
+}
+.boton {
+	text-decoration: none;
+	display: inline-block;
+	background-color: #bcbf93;
+	color: black;
+	border-radius: 8px;
+	padding: 5px 5px;
+	font-weight: bold;
+}
+
+.boton:hover {
+	background-color: #868c56;
+	color: black;
+}
